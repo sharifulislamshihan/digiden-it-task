@@ -32,7 +32,7 @@ const WeatherDisplay = () => {
 
                 // Weather data display when city is found
                 <div
-                    className="w-full max-w-xl mx-auto bg-gradient-to-br from-white to-blue-200 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-8 backdrop-blur-sm border border-purple-200/50 animate-fade-in dark:border-2 dark:border-purple-400 flex flex-col-reverse md:flex-row-reverse gap-7 md:gap-14 justify-center md:justify-around py-10 items-center"
+                    className="w-full max-w-xl mx-auto bg-gradient-to-br from-blue-200 to-white dark:from-gray-900 dark:to-gray-800 rounded-2xl p-8 backdrop-blur-sm border border-purple-200/50 animate-fade-in dark:border-2 dark:border-purple-400 flex flex-col-reverse md:flex-row-reverse gap-7 md:gap-14 justify-center md:justify-around py-10 items-center"
                     style={{ boxShadow: '0 0 20px rgba(128, 90, 213, 0.4)' }}
                 >
                     {/* City and country name */}
